@@ -1,0 +1,57 @@
+/* pages/todos/todos.wxss */
+.container{
+  padding: 10px;
+  font-family: '微软雅黑';
+}
+.search{
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  align-items: center;
+  width: 97%;
+}
+
+.search image{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.search-p{
+  font-size: 14px;
+  color: #ccc;
+}
+
+.list{
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+}
+.done{
+  color: #0cbf59;
+}
+.list .item{
+  display: flex;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+}
+.list .item:last-child{
+  border: none;
+}
+.item text{
+  flex: 1;
+  padding-left: 10px;
+}
+
+.btn1{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #6aa4c2;
+  font-weight: bold;
+}

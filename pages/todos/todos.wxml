@@ -1,0 +1,19 @@
+<!--pages/todos/todos.wxml-->
+<view class='container'>
+  <view class='search'>
+    <image bindtap='imgHandle' src='/images/plus.png'></image>
+    <input type='text' placeholder='请输入待办事项' value='{{addinput}}' bindinput='inputHandle' placeholder-class='search-p'></input>
+  </view>
+  <view class='list'>
+    <view class='item' wx:for='{{todos}}'>
+      <icon id='{{index}}' type='{{item.status?"success":"circle"}}' bindtap='changeStatus' size='20'></icon>
+      <text class='{{item.status?"done":""}}'>{{item.content}}</text>
+      <icon data-index='{{index}}' type='clear' size='15' bindtap='clearHandle'></icon>
+    </view>
+  </view>
+  <view class='btn1'>
+   <text bindtap='allSelHandle'>{{select?'全选':'取消全选'}}</text>
+   <text>剩余{{leftitem}}项</text>
+   <text bindtap='emptyHandle'>清空</text>
+  </view>
+</view>

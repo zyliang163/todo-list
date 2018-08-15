@@ -1,0 +1,21 @@
+ <view class='container1'>
+  <!-- <image src='/images/no.png'></image> -->
+  <text>1</text>
+  <text>2</text>
+  <text>3</text>
+  <text>4</text>
+  <text>5</text>
+  <text>6</text>
+  <text>7</text>
+  <text>8</text>
+  <text>9</text> 
+</view>   
+  <!-- <text>1</text>
+  <text>2</text>
+  <text>3</text>
+  <text>4</text>
+  <text>5</text>
+  <text>6</text>
+  <text>7</text>
+  <text>8</text>
+  <text>9</text> -->

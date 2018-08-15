@@ -1,0 +1,24 @@
+{
+  "navigationBarTitleText": "待办事项",
+  "tabBar": {
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "text": "首页"
+        },
+        {
+            "pagePath": "pages/logs/logs",
+            "text": "日志"
+        },
+        {
+            "pagePath": "pages/logs/logs",
+            "text": "日志"
+        }
+    ],
+    "color": "orange",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "position": "bottom"
+}
+  }

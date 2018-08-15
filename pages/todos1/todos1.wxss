@@ -1,0 +1,106 @@
+/* pages/todos1/todos1.wxss */
+page{
+  font-family: '微软雅黑';
+}
+.container{
+  width: 100%;
+  padding: 10px;
+}
+.search
+{
+  margin: 10px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  width: 87%;
+}
+.search image{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+.s-input{
+  color: #ccc;
+  font-size: 14px;
+}
+.list{
+  border: 1px solid #ccc;
+  width: 90%;
+  font-size: 16px;
+  color: #333;
+  border-radius: 4px;
+}
+.list .item{
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.list .item text{
+  flex: 1;
+  padding-left: 6px;
+}
+.list .item:last-child{
+  border: none;
+}
+/* .list .item:last-child text:nth-of-type(1){
+   color:red;
+} */
+
+.btn{
+  width: 90%;
+  color: #0cbf59;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sinput{
+  color: #ccc;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.done{
+  color: #0cbf59;
+}
+.cus{
+  width: 90%;
+  display: flex;
+  border: 1px solid #ccc;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+}
+.cus input{
+  width: 100%;
+  border-radius: 4px;
+}
+.cus image{
+  width: 25px;
+  height: 25px;
+}
+
+.cus1{
+  display: flex;
+  border: 1px solid #ccc;
+  width: 90%;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 5px;
+  align-items: center;
+}
+.cus1 image{
+  width: 25px;
+  height: 25px;
+}
+.cus1 input{
+  width: 100%;
+}
+
+.nodata{
+    color: #666;
+    padding: 30px;
+}

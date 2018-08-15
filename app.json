@@ -1,0 +1,38 @@
+{
+    "pages": [
+        "pages/todos1/todos1",
+        "pages/todos/todos",
+        "pages/test3/test3",
+        "pages/test2/test2",
+        "pages/index/index",
+        "pages/test1/test1",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#0cbf59",
+        "navigationBarTitleText": "印象笔记",
+        "navigationBarTextStyle": "#fff"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/todos/todos",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "日志"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "日志"
+            }
+        ],
+        "color": "orange",
+        "selectedColor": "#000",
+        "backgroundColor": "#fff",
+        "borderStyle": "white",
+        "position": "bottom"
+    }
+}

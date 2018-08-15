@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="content">
+   <view class='info'>
+        <view class='face'>
+          <image src='/images/elephant.png'></image>
+        </view>
+        <view class='title'>
+          <text>印象笔记</text>
+        </view>
+    </view>
+    <view class='login'>
+        <input type='text' placeholder='用户名或电子邮件'></input>
+        <input type='text' placeholder='输入密码'></input>
+    </view>
+    <view class='reg'>
+        <button type='primary'>登陆</button>
+        <button>或者,创建账户</button>
+    </view>
+    <view class='getps'>
+     <navigator url=''>忘记密码</navigator>
+    </view>
+  </view>
+  <view class="copyright">
+    <text>版权信息</text>
+  </view>
+</view>
